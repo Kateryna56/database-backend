@@ -1,0 +1,108 @@
+{
+  "Name": "testVid",
+  "Tables": [
+    {
+      "Name": "table1",
+      "ColumnNames": [
+        "number1",
+        "char1",
+        "textFile1"
+      ],
+      "ColumnTypes": [
+        "integer",
+        "char",
+        "textFile"
+      ],
+      "Rows": [
+        {
+          "Fields": [
+            "10",
+            "h",
+            "12345678901234567890"
+          ]
+        },
+        {
+          "Fields": [
+            "11",
+            "y",
+            "123456"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "table2",
+      "ColumnNames": [
+        "Id",
+        "Name"
+      ],
+      "ColumnTypes": [
+        "integer",
+        "string"
+      ],
+      "Rows": [
+        {
+          "Fields": [
+            "10",
+            "Jack"
+          ]
+        },
+        {
+          "Fields": [
+            "11",
+            "Nataliaa"
+          ]
+        },
+        {
+          "Fields": [
+            "12",
+            "Bob"
+          ]
+        },
+        {
+          "Fields": [
+            "13",
+            "Lisa"
+          ]
+        }
+      ]
+    },
+    {
+      "Name": "JoinedTable07.10.2024 18:01:40",
+      "ColumnNames": [
+        "table1.number1",
+        "table1.char1",
+        "table1.textFile1",
+        "table2.Id",
+        "table2.Name"
+      ],
+      "ColumnTypes": [
+        "integer",
+        "char",
+        "textFile",
+        "integer",
+        "string"
+      ],
+      "Rows": [
+        {
+          "Fields": [
+            "10",
+            "h",
+            "12345678901234567890",
+            "10",
+            "Jack"
+          ]
+        },
+        {
+          "Fields": [
+            "11",
+            "y",
+            "123456",
+            "11",
+            "Natalia"
+          ]
+        }
+      ]
+    }
+  ]
+}
